@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ <link rel="stylesheet" href="./style.css">
+ <script defer src="./script.js"></script>
+
+</head>
+<body>
+    
+    <form id="form" action="/" method="GET">
+        <h1>Employees Registration Form</h1>
+    <div class="input-control">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" >
+        <div class="error"></div>
+    </div>   
+    <br>
+    <div class="input-control">
+        <label for="profession">Profession:</label>
+        <input id="profession" name="profession" type="text" >
+        <div class="error"></div>
+    </div>  
+    <br>
+     <div class="input-control">
+        <label for="age">Age:</label>
+        <input id="age" name="age" type="number" >
+        <div class="error"></div>
+    </div>
+    <br>
+    <button type="submit">Add Employee</button>
+</form>
+
+ <div id="table">
+    <h2>List of Employees</h2>
+      <tr>
+        <td>Name</td>&nbsp&nbsp
+        <td>Profession</td>&nbsp&nbsp
+        <td>Age</td>
+
+      </tr>
+     
+
+      
+    </table>
+ </div>
+</body>
+</html>
